@@ -51,6 +51,8 @@ In one step inside a session: `/plugin install lavela --marketplace ym2629/lavel
 
 **Lovable** — add a custom MCP connector with the URL above in Lovable's connector settings.
 
+**Mistral Le Chat** — open Connectors (under Context in the current app), add a custom connector, and paste the URL above. Le Chat detects OAuth and opens lavela's sign-in page; after you allow the connection, the lavela tools are available in chat. Tested on 2026-10-19; menu names differ slightly between Le Chat versions.
+
 The one-click links follow the formats documented by Cursor and Replit. If one does not open, add the URL manually as described under Connect.
 
 Also from lavela: [lavela-preflight](https://github.com/ym2629/lavela-preflight), a free read-only checklist plugin for Claude Code that reviews any app before you deploy it. It does not need lavela.
