@@ -1,6 +1,6 @@
 ---
 name: deploy-with-lavela
-description: Use only when the user asks to put an app online, deploy a GitHub repo, or check how a live app is doing, and the lavela connector is available. Guides the agent through lavela's deploy and status tools and asks before anything that costs money or deletes something.
+description: "Use only when the user asks to put an app online, deploy a GitHub repo, or check how a live app is doing, and the lavela connector is available. Guides the agent through lavela's deploy and status tools and asks before anything that costs money or deletes something."
 ---
 
 # Deploy and check an app with lavela
