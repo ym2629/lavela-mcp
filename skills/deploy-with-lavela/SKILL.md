@@ -10,8 +10,8 @@ lavela is a remote MCP server (beta) that builds an app from a GitHub repository
 ## Before you start
 
 - If the lavela tools are not available, tell the user to connect `https://console.lavela.dev/api/mcp` in their MCP client and sign in with the browser prompt. There is no token to paste.
-- Call `lavela.ping`, then `lavela.capabilities`. Capabilities lists the tools available on the current connection and the recommended flow. Tool names and flows change, so trust that output over this file.
-- Call `lavela.account_status` to see whether terms have been accepted and whether the account can run servers. Explain what it says in plain words.
+- Call `lavela.account_status` first. It says whether terms have been accepted and whether the account can run servers. Explain what it says in plain words.
+- Tool names and flows change, so trust each tool result (every one names a `next_step`) over this file. `lavela.ping` and `lavela.capabilities` exist only on the every-tool connection (`https://console.lavela.dev/api/mcp/all`), not on the default one.
 
 ## Deploying a GitHub repo
 
