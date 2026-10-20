@@ -49,7 +49,7 @@ In one step inside a session: `/plugin install lavela --marketplace ym2629/lavel
 
 **Replit** — [add lavela](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6ImxhdmVsYSIsImJhc2VVcmwiOiJodHRwczovL2NvbnNvbGUubGF2ZWxhLmRldi9hcGkvbWNwIn0%3D) (one-click link).
 
-**Lovable** — not supported yet. Lovable's connector connects and signs in, but it rejects tool names that contain a period (lavela's tools are named like `lavela.account_status`), so no tool can be used (tested 2026-10-19).
+**Lovable** — use the period-free URL `https://console.lavela.dev/api/mcp/compat` (Connectors → Custom → MCP server → paste the URL → sign in). Lovable rejects tool names that contain a period, so the default URL registers no tool there; this one serves the same core tools named like `lavela_account_status`. Tested on 2026-10-20: connected, and a read-only call returned the account status.
 
 **Mistral Le Chat** — open Connectors (under Context in the current app), add a custom connector, and paste the URL above. Le Chat detects OAuth and opens lavela's sign-in page; after you allow the connection, the lavela tools are available in chat. Tested on 2026-10-19; menu names differ slightly between Le Chat versions.
 
