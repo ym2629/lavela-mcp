@@ -1,0 +1,8 @@
+{
+  "name": "lavela-mcp",
+  "owner": { "name": "lavela" },
+  "metadata": { "description": "The lavela connector for Claude Code: deploy an app from a GitHub repo and check on it from chat." },
+  "plugins": [
+    { "name": "lavela", "source": "./", "description": "Connect Claude Code to the lavela remote MCP server and a skill for deploying and checking an app." }
+  ]
+}

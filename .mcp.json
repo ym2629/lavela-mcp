@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lavela": {
+      "type": "http",
+      "url": "https://console.lavela.dev/api/mcp"
+    }
+  }
+}

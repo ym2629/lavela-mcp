@@ -34,6 +34,27 @@ claude mcp add --transport http lavela https://console.lavela.dev/api/mcp
 npx @lavela/cli connect
 ```
 
+## Install as a plugin
+
+**Claude Code** — adds the connector and a skill that guides your agent through deploying and checking an app:
+
+```bash
+claude plugin marketplace add ym2629/lavela-mcp
+claude plugin install lavela@lavela-mcp
+```
+
+In one step inside a session: `/plugin install lavela --marketplace ym2629/lavela-mcp`
+
+**Cursor** — [add the lavela MCP server](cursor://anysphere.cursor-deeplink/mcp/install?name=lavela&config=eyJ1cmwiOiJodHRwczovL2NvbnNvbGUubGF2ZWxhLmRldi9hcGkvbWNwIn0%3D) (one-click link), or add the URL above in Cursor's MCP settings.
+
+**Replit** — [add lavela](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6ImxhdmVsYSIsImJhc2VVcmwiOiJodHRwczovL2NvbnNvbGUubGF2ZWxhLmRldi9hcGkvbWNwIn0%3D) (one-click link).
+
+**Lovable** — add a custom MCP connector with the URL above in Lovable's connector settings.
+
+The one-click links follow the formats documented by Cursor and Replit. If one does not open, add the URL manually as described under Connect.
+
+Also from lavela: [lavela-preflight](https://github.com/ym2629/lavela-preflight), a free read-only checklist plugin for Claude Code that reviews any app before you deploy it. It does not need lavela.
+
 ## Try it
 
 Start a new conversation and ask:

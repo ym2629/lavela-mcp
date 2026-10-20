@@ -1,0 +1,10 @@
+{
+  "name": "lavela",
+  "description": "Deploy an app from a GitHub repo to a live server from chat, and check on it afterwards. Connects Cursor to the lavela remote MCP server (beta).",
+  "version": "1.0.0",
+  "author": { "name": "lavela", "url": "https://lavela.dev" },
+  "homepage": "https://lavela.dev",
+  "repository": "https://github.com/ym2629/lavela-mcp",
+  "license": "MIT",
+  "keywords": ["deploy", "hosting", "mcp", "ai-agents"]
+}
